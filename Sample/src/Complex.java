@@ -131,7 +131,7 @@ public class Complex {
     }
 
     public Complex timesg(Complex that) {
-        double real1 = this.re * that.re
+        double real1 = this.re * that.re;
         double im1 = this.im * that.im;
         double re = real1 - im1;
         double imag = (this.re + this.im) * (that.re + that.im) - real1 - im1;

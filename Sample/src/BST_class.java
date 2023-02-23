@@ -161,8 +161,11 @@ class BST_class {
             //insert data into BST
             bst.insert(45);
             bst.insert(10);
-            bst.insert(7);
-            bst.insert(12);
+
+                  bst.insert(7);
+        //bst.inorder();
+
+        bst.insert(12);
             bst.insert(90);
             bst.insert(50);
             //print the BST
