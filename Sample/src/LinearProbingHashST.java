@@ -97,6 +97,7 @@ public class LinearProbingHashST<Key, Value> {
     // (from Java 7 implementation, protects against poor quality hashCode() implementations)
     private int hash(Key key) {
         int h = key.hashCode();
+       // System.out.println(key.hashCode)
         h ^= (h >>> 20) ^ (h >>> 12) ^ (h >>> 7) ^ (h >>> 4);
         return h & (m-1);
     }

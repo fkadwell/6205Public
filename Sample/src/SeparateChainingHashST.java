@@ -200,6 +200,9 @@ public class SeparateChainingHashST<Key, Value> {
         for (String s : st.keys())
             StdOut.println(s + " " + st.get(s));
 
+        //StdOut.println("Low" + " " + st.get("Low"));
+        StdOut.println(st.size());
+
 
     }
 
