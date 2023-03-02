@@ -11,12 +11,8 @@
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
+import java.io.*;
 public class AllowFilter {
 
     // Do not instantiate.
@@ -31,8 +27,8 @@ public class AllowFilter {
         while (!StdIn.isEmpty()) {
             String key = StdIn.readString();
             //if (!set.contains(key)) {
-                set.add(key);
-                StdOut.println(key);
+            set.add(key);
+            StdOut.println(key);
             //}
         }
 
@@ -40,8 +36,8 @@ public class AllowFilter {
         // read in string from standard input, printing out all exceptions
         //while (!StdIn.isEmpty()) {
         //    String word = StdIn.readString();
-         //   if (set.contains(word))
-         //       StdOut.println(word);
+        //   if (set.contains(word))
+        //       StdOut.println(word);
         //}
     }
 }
