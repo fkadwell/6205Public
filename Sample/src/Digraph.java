@@ -57,7 +57,7 @@ public class Digraph {
     }
 
     /**
-     * Initializes a digraph from the specified input stream.
+     * Initiaizes a digraph from the specified input stream.
      * The format is the number of vertices <em>V</em>,
      * followed by the number of edges <em>E</em>,
      * followed by <em>E</em> pairs of vertices, with each entry separated by whitespace.
